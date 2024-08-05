@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    width: auto;
+    background-color: whitesmoke;
+}
+header {
+    background-color: rgb(45, 40, 40);
+    padding-top: .5rn;
+    padding-bottom: .5em;
+    display: flex;
+}
+
+header img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header a {
+    text-align: right;
+    padding: 1em;
+    display: block;
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    margin-right: 2em;
+    margin-top: 1em;
+    text-decoration: none;
+}
+
+header a:hover {
+    background-color: white;
+    color: rgb(45, 40, 40);
+}
+
+header a:focus {
+    background-color: white;
+    color: rgb(45, 40, 40);
+}
+
+main {
+    width: 50%;
+    float: left;
+    padding-top: 2em;
+}
+
+main h1 {
+    padding-left: .7em;
+    padding-bottom: .5em;
+    padding-top: 1em;
+}
+
+main p {
+    padding-left: 2em;
+    padding-bottom: .5em;
+    padding-right: 2em;
+    line-height: 150%;
+    font-size: 120%;
+}
+
+main a {
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(45, 40, 40);
+    padding: 1em;
+    text-decoration: none;
+    color: rgb(45, 40, 40);
+    margin-top: 1em;
+}
+
+main a:hover {
+    background-color: rgb(45, 40, 40);
+    color: white;
+}
+
+main a:focus {
+    background-color: rgb(45, 40, 40);
+    color: white;
+}
+
+aside {
+    width: 50%;
+    float: right;
+}
+
+aside img {
+    width: 100%;
+}
+
+span {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 1em 0;
+}
+
+div {
+    text-align: center;
+    font-size: 130%;
+}
+
+section {
+    clear: both;
+    display: flex;
+    margin-left: 5em;
+    margin-right: 2em;
+}
+
+section h2 {
+    font-size: 2.5em;
+    margin: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+
+ul {
+    padding-left: 3em;
+    width: 450px;
+}
+
+ul h3 {
+    padding-bottom: 1em;
+    text-decoration: underline;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    font-size: 1.5em;
+}
+
+ul li {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    font-size: 110%;
+}
+
+form {
+    margin-right: 5em;
+}
+
+footer {
+    clear: both;
+    margin-top: 2em;
+    padding-top: 5em;
+    padding-bottom: 2em;
+    font-size: 80%;
+    text-align: left;
+    padding-left: 3em;
+    background-color: rgb(45, 40, 40);
+    color: white;
+
+}
